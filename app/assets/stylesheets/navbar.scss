@@ -1,0 +1,26 @@
+.navbar {
+	background-color: rgba(251,248,245,0.98);
+
+
+	ul {
+		list-style: none;
+	}
+
+	.navbar-nav {
+		margin-left: 339px;
+		.nav-item {
+			margin-right: 1rem;
+			padding-top: 13px;
+			margin-left: 80px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+
+.nav-item-link {
+	color: #283c46;
+	padding: 0.7rem;
+}

@@ -1,0 +1,40 @@
+// Place all the styles related to the Project controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+	color: #aa9c84;
+}
+
+.project-top-wrapper{
+	color: #aa9c84;
+	font-size: 15px;
+	font-weight: 600;
+}
+.project-header-text{
+	padding-left: 38px;
+}
+
+.left-line {
+	border-top: 2px solid;
+	border-color: #aa9c84;
+	margin-top: 39px;
+}
+
+.right-line {
+	border-top: 2px solid;
+	border-color: #aa9c84;
+	margin-top: 39px;
+}
+
+
+.card {
+	margin-top: 25px;
+	display: block;
+	color: #283c46;
+	background-color: #fff;
+	box-shadow: 0 1px 2px #aa9c84;
+	border-radius: 6px;
+	padding: 1.5rem;
+	height: 100%;
+}
