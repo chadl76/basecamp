@@ -34,7 +34,7 @@ gem 'envyable'
 gem 'bootstrap-sass'
 
 gem 'jquery-rails'
-
+gem 'jquery-turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

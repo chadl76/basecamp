@@ -1,0 +1,26 @@
+//$('.btn-wrapper').append('<div class=new-popup>hello</div>');
+//create a new element and select the new button element
+//const popup = document.createElement('div')
+//const div = document.querySelector('.btn-wrapper');
+//add class to popup-link div
+//popup.classList.add('popup-link');
+//const newDiv = div.appendChild(popup);
+
+//console.log(newDiv);
+let cancelButton = document.getElementById('popup-cancel-btn');
+let projectButton = document.getElementById('new-project-btn');
+let popupForm = document.getElementById('popup-form');
+
+projectButton.addEventListener('click', function(){
+
+	popupForm.classList.remove('is-hidden');
+})
+
+
+cancelButton.addEventListener('click', function(){
+	popup.classList.add('is-hidden');
+})
+console.log(projectButton);
+console.log(popupForm);
+console.log("hello");
+

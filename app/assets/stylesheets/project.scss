@@ -37,4 +37,60 @@ h1 {
 	border-radius: 6px;
 	padding: 1.5rem;
 	height: 100%;
+	transition: all .2s ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+}
+
+.new-btn {
+	margin-top: 25px;
+	background-color: #2042e4;
+}
+
+.card-link-btn {
+	color: #283c46;
+	
+
+	&:hover {
+		color: #529cc1;
+		
+	}
+}
+
+.new-popup {
+	color: #283c46;
+}
+
+.popup-form-buttons {
+	display: -webkit-inline-box;
+	padding: 21px;
+}
+
+.project-popover {
+	background: #fff;
+	position: absolute;
+	width: 244px;
+	height: 124px;
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow: 6px 8px 20px 4px #a8afaf;
+	margin-top: 8px;
+	z-index: 1;
+
+}
+
+.submit-btn {
+	margin-top: 11px;
+	margin-right: 5px;
+}
+
+.cancel-btn {
+	margin-top: 11px;
+}
+
+.is-hidden {
+	display: none;
 }

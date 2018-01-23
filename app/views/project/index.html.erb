@@ -1,6 +1,26 @@
 <div class="project-top-wrapper">
   <div class="row">
-	<div class="col-xs-4 left-line"></div>
+  	<div class="col-xs-1 btn-wrapper"><%=link_to "New", root_path, remote: true, class: "btn btn-primary new-btn glyphicon glyphicon-plus", id: "new-project-btn" %>
+  	</div>
+  </div>
+
+  	<div class="project-popover is-hidden" id="popup-form">
+  		<div class='row'>
+  			<div class="col-xs-2">
+  				<form>
+  					<div class="form-group popup-form-buttons">
+  						<input type="text" id="new-project" placeholder="  Name this project" autofocus>
+
+  						<button type="submit" class="btn btn-success submit-btn">Sumbit</button>
+  						<span><button type="submit" class="btn btn-default cancel-btn" id="popup-cancel-btn">Cancel</button></span>
+
+  					</div>
+  				</form>
+  			</div>
+  		</div>
+  	</div>
+
+	<div class="col-xs-3 left-line"></div>
   	
   	<div class="col-xs-1 project-header-text">
       <h1 class="text-right">Project</h1>
@@ -16,11 +36,12 @@
   </div>
 
   <div class="row">
-  	<div class="col-xs-4">
+  	<div class="col-xs-3">
   		<div class="card">
-  			
+  			<%=link_to root_path, class: "card-link-btn" do %>
   			<h2 class="text-center">Making A Podcast</h2>
   			<p>An example of using Basecamp to produce a podcast</p>
+  			<%end%>
   	</div>
   	</div>
   </div>
